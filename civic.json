@@ -1,5 +1,5 @@
 {
-    "conformsTo": "https://github.com/codefordc/guides/blob/master/using-civic.json/specification.md",
+    "conformsTo": "http://codefordc.org/resources/specification.html",
     "status": "Alpha",
     "thumbnailUrl": "http://f.cl.ly/items/2J3Y0U1v3W00101V1r1q/dc_tree.png",
     "contact": {
@@ -25,7 +25,19 @@
       "Casey Trees (planting timelapse 2003-2014)":"http://caseytrees.org/resources/maps/time-lapse/",
       "Casey Trees (planting timelapse 2003-2014 map)":"https://caseytreesmaps.cartodb.com/tables/ctps_by_year_20141107_cartodb_dconly/public"
     },
-    "needs": ["Community Engagement Pros","Media","Communications experts","Educators (primary,secondary)","GIS Analysts","Foresters"],
-    "categories": ["trees","ddot","forestry","environment"],
+    "needs": [
+        {"need":"Community Engagement Pros"},
+        {"need":"Media"},
+        {"need":"Communications experts"},
+        {"need":"Educators (primary,secondary)"},
+        {"need":"GIS Analysts"},
+        {"need":"Foresters"}
+    ],
+    "categories": [
+        {"category":"trees"},
+        {"category":"ddot"},
+        {"category":"forestry"},
+        {"category":"environment"}
+    ],
     "moreInfo":"https://opendatadaydc.hackpad.com/DC-Tree-Map-vT2lYAdknk1"
 }

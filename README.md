@@ -1,7 +1,19 @@
 # DCTreeMap
 
-The following repository is for some of the key data, migration scripts, and issue tracking for DCTreeMap.  DCTreeMap is a project to take official tree data from Washington DC's District Department of Transportation (DDOT) Urban Forestry Adminstration (UFA) -- available on DC's open data portal -- and available data from awesome non-profit Casey Trees, merge them, and combine them into Azavea's OpenTreeMap platform. OTM brings a lot of value to this data in calculating the energy and resource savings of DC's urban canopy and we're trying to get a beta put together to seek some sponsorship to get it online.  (And, no, we don't work for Azavea or benefit financially from this website.)
+**Official website: http://dctreemap.org/dc/map**
 
-As we are planning to use the Azavea's hosted version of this platform, the OTM platform code is not under this repository.  Azavea does offer this platform [as FOSS](https://github.com/OpenTreeMap/OpenTreeMap), including (and recommended) [a Vagrant version for easier self installation](https://github.com/OpenTreeMap/OTM2). We are not using the self-hosted version as it does not include some of the convenience features like bulk imports.
+![DCTreeMap Screenshot](http://cl.ly/image/2p0f2e0Y0K0P/download/dctreemap%20screenshot.png)
 
-If you'd like to get involved, please send a note to rrbaker [at] gmail [dot] com and check out the issue tracker in this repository. There's some technical nice-to-haves as well as non-technical contributions that would go a long way in helping to find funding to officially launch this project soon.  We need about $13k in just the hosting fees to make it public so your efforts here are appreciated!
+DCTreeMap is a project to combine and measure the benefits of DC's tree data, drawing from [Washington DC's District Department of Transportation (DDOT) Urban Forestry Adminstration (UFA)](http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23); data from local non-profit [Casey Trees](http://caseytrees.org); and, over time, contributions from volunteers, using [Azavea's](http://www.azavea.com/) [OpenTreeMap](http://opentreemap.org) (OTM) platform. OTM brings a lot of value to this data in [analyzing the energy and resource savings of DC's urban canopy](https://www.opentreemap.org/analyze/) and [offering new opportunities for local individuals to engage with their city and their neighborhoods](https://www.opentreemap.org/engage/).
+
+### About this repo
+
+The following repository is for some of the key data, resources, scripts, and issue tracking for DCTreeMap. It is also used to make DCTreeMap a project of record under [Code for DC](http://codefordc.org/projects/). The OTM platform code is not under this repository. Azavea [does offer this platform as FOSS](https://github.com/OpenTreeMap/OTM2), including (and recommended) [a Vagrant version for easy local installation](https://github.com/OpenTreeMap/otm2-vagrant).
+
+### Get Involved
+
+If you'd like to get involved:
+
+* Send a note to Rob Baker at rrbaker [at] gmail [dot] com, leading up this project.
+* [Check out the issue tracker in this repository](https://github.com/rrbaker/dctreemap/issues) for a growing number of technical and non-technical needs we could use some help with.
+* Get involved with [Code for DC](http://dctreemap.org)! This is [one of many excellent projects](http://codefordc.org/dctreemap) you can find out more at at [our regular meetups](http://www.meetup.com/code-for-dc).

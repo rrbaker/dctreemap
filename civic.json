@@ -1,43 +1,67 @@
 {
-    "conformsTo": "http://codefordc.org/resources/specification.html",
-    "status": "Alpha",
-    "thumbnailUrl": "http://f.cl.ly/items/2J3Y0U1v3W00101V1r1q/dc_tree.png",
+    "name": "DC Tree Map", 
+    "description": "Data, media, and issue tracking for DCTreeMap", 
+    "license": "MIT", 
+    "status": "Alpha", 
+    "type": "Web App", 
+    "homepage": "http://dctreemap.org/dc/map", 
+    "repository": "https://github.com/rrbaker/dctreemap", 
+    "thumbnail": "http://f.cl.ly/items/2J3Y0U1v3W00101V1r1q/dc_tree.png", 
+    "geography": [
+        "Washington, DC"
+    ], 
     "contact": {
-        "name":"Rob Baker",
-        "email":"rrbaker@gmail.com",
-        "twitter":"rrbaker"
-    },
-    "bornAt": "Code for DC",
-    "geography": "Washington, DC",
-    "politicalEntity": {
-      "District Department of Transportation (DDOT)":"http://ddot.dc.gov"
-    },
-    "governmentPartner": {
-      "District Department of Transportation (DDOT)":"http://ddot.dc.gov",
-      "DDOT Urban Forestry Administration":"http://ddot.dc.gov/page/ddot-urban-forestry-administration-ufa"
-    },
-    "communityPartner": {
-      "Casey Trees": "http://caseytrees.org"
-    },
-    "type": "Web App",
-    "data": {
-      "DC's Urban Forest Administration (UFA) Street Trees":"http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23",
-      "Casey Trees (planting timelapse 2003-2014)":"http://caseytrees.org/resources/maps/time-lapse/",
-      "Casey Trees (planting timelapse 2003-2014 map)":"https://caseytreesmaps.cartodb.com/tables/ctps_by_year_20141107_cartodb_dconly/public"
-    },
-    "needs": [
-        {"need":"Community Engagement Pros"},
-        {"need":"Media"},
-        {"need":"Communications experts"},
-        {"need":"Educators (primary,secondary)"},
-        {"need":"GIS Analysts"},
-        {"need":"Foresters"}
-    ],
-    "categories": [
-        {"category":"trees"},
-        {"category":"ddot"},
-        {"category":"forestry"},
-        {"category":"environment"}
-    ],
-    "moreInfo":"https://opendatadaydc.hackpad.com/DC-Tree-Map-vT2lYAdknk1"
+        "name": "Rob Baker", 
+        "email": "rrbaker@gmail.com", 
+        "url": "https://twitter.com/rrbaker"
+    }, 
+    "partners": [
+        {
+            "url": "http://ddot.dc.gov/page/ddot-urban-forestry-administration-ufa", 
+            "name": "DDOT Urban Forestry Administration", 
+            "email": ""
+        }, 
+        {
+            "url": "http://ddot.dc.gov", 
+            "name": "District Department of Transportation (DDOT)", 
+            "email": ""
+        }, 
+        {
+            "url": "http://caseytrees.org", 
+            "name": "Casey Trees", 
+            "email": ""
+        }, 
+        {
+            "url": "http://codefordc.org", 
+            "name": "Code for DC", 
+            "email": ""
+        }
+    ], 
+    "data": [
+        {
+            "url": "http://caseytrees.org/resources/maps/time-lapse/", 
+            "name": "Casey Trees (planting timelapse 2003-2014)", 
+            "metadata": ""
+        }, 
+        {
+            "url": "http://opendata.dc.gov/datasets/d6364e8d068e4e558c82040569f5d33a_23", 
+            "name": "DC's Urban Forest Administration (UFA) Street Trees", 
+            "metadata": ""
+        }, 
+        {
+            "url": "https://caseytreesmaps.cartodb.com/tables/ctps_by_year_20141107_cartodb_dconly/public", 
+            "name": "Casey Trees (planting timelapse 2003-2014 map)", 
+            "metadata": ""
+        }
+    ], 
+    "tags": [
+        "trees", 
+        "ddot", 
+        "forestry", 
+        "environment"
+    ], 
+    "links": [
+        "https://opendatadaydc.hackpad.com/DC-Tree-Map-vT2lYAdknk1"
+    ], 
+    "id": "https://raw.githubusercontent.com/DCgov/civic.json/master/schemas/schema-v1.json"
 }
